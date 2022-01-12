@@ -1,0 +1,27 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Annotator" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="ComposeMissingKeys" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="DjangoUnresolvedUrlInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="sentry-sdk[flask]" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="app.modules.course.progress_services.create.UpdateProgressService.course_id" />
+          <option value="flask_marshmallow.sqla.SQLAlchemySchema" />
+          <option value="bool.is_" />
+          <option value="botocore.exceptions" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
